@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'styles.css')}}">
+    <title>Add a new Restaurant</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <h1> Add a new Restaurant </h1>
+        
+        <div class="infoplace">
+            <form action='/restaurants/new' method="post">
+        
+                <span style="color: #D24B81;">Name : </span> 
+                <input type="text" name="name">
+                <input type="submit" name="Add">
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+    
+
+
+</body>
+</html>

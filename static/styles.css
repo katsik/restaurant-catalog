@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-image: url('img3.jpg');
+    background-color: #224687
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #fff;
+}
+
+h1,
+h2 {
+    font-family: 'georgia', serif;
+    margin: 0;
+}
+
+h1 {
+    border-bottom: 2px solid #fff;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p,
+dd,
+dt {
+    color: #cccccc;
+}
+
+input[type="text"]{
+    background: transparent;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #D24B81;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: #D24B81;
+}
+
+a {
+    text-decoration: none;
+    /*color: #ffffcc;*/
+    color: #D24B81;
+    font-size: .75em;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #D24B81;
+}
+
+a.restaurant_name{
+
+}
+
+.pane {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    border-color: #999999;
+    background-color: #224687;
+}
+
+.header {
+    left: 50%;
+    text-align: center;
+}
+
+.name{
+    /*color: #ffffcc;*/
+    color: #D24B81;
+    text-decoration: bold;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.infoplace{
+    padding-top: 2%;
+}
+
+div.add_restaurant{    
+    float: right;
+    padding-right: 1%;
+}
+.description {}
+
+
+.price{
+    color: #ffffcc;
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.editdeletepane {}
+
+.flash {
+    background: #cee5f5;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #D24B81;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #D24B81;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #D24B81;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #D24B81;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #D24B81;
+}
